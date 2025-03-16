@@ -1,33 +1,22 @@
-# purplish-project-frontend
+# Purplish Project - Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Main frontend application
 
-## Recommended IDE Setup
+## Setting up the project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Follow the next instructions to get the micro up and running
 
-## Type Support for `.vue` Imports in TS
+### Dependencies
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Make sure you have the next dependencies on the target system:
 
-## Customize configuration
+- bun
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Deploying
 
-## Project Setup
+Run the next commands on your system:
 
-```sh
+```
 bun install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-bun dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-bun run build
+bun run dev
 ```
