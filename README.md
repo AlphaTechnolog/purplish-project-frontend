@@ -16,7 +16,7 @@ Make sure you have the next dependencies on the target system:
 
 Run the next commands on your system:
 
-```
+```sh
 bun install
 bun run dev
 ```
